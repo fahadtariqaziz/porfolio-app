@@ -71,9 +71,9 @@ export default function Navbar() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: "100%" }}
             transition={{ type: "tween", duration: 0.3 }}
-            className="fixed inset-0 top-16 bg-background/95 backdrop-blur-md z-40 md:hidden"
+            className="fixed inset-0 top-16 bg-background z-40 md:hidden overflow-hidden"
           >
-            <div className="flex flex-col items-center gap-8 pt-16">
+            <div className="flex flex-col items-center justify-center gap-8 h-full pb-16">
               {navLinks.map((link) => (
                 <a
                   key={link.href}
