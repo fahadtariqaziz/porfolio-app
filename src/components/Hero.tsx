@@ -52,7 +52,7 @@ export default function Hero() {
           className="flex flex-col sm:flex-row gap-4 mt-4"
         >
           <a
-            href="/resume.pdf"
+            href="/Fahad-Tariq-Aziz.pdf"
             download
             className="bg-accent hover:bg-accent-dark text-white font-medium px-6 py-3 rounded-lg transition-colors duration-200 text-center"
           >
